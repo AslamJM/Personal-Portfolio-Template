@@ -4,19 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" data-auto-replace-svg="nest"></script>
+    <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" ></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio Website</title>
 </head>
 <body>
+
+
     <nav class="nav-bar">
-        <div class="max-width">
-            <div class="logo"><a href="#"><span>EMD</span> LABS</a></div>
+        <div class="nav-container">
+            <div class="logo"><a href="#">logo <span>here</span></a></div>
                 <ul class="menu">
                     <li><a href="#home" class="menu-btn">HOME</a></li>
                     <li><a href="#about" class="menu-btn">ABOUT ME</a></li>
-                    <li><a href="#works" class="menu-btn">WORKS</a></li>
+                    <li><a href="#experience" class="menu-btn">EXPERIENCE</a></li>
+                    <li><a href="#projects" class="menu-btn">PROJECTS</a></li>
                     <li><a href="#contact" class="menu-btn">CONTACT</a></li>
                 </ul>
                 <div class="menu-btn">
@@ -26,171 +30,255 @@
     </nav>
 
     <section class="home" id="home">
-        <div class="max-width">
-            <div class="home-content">
-                <div class="text-1">Hello, I'm</div>
-                <div class="text-2">This Guy</div>
-                <div class="text-3">Welcome to my page</div>
-            </div>
-        </div>
-    </section>
-    <section class="about" id="about">
-        <div class="header">
-            <h2>About Me</h2>
-        </div>
         <div class="container">
-            <div class="image">
-                <img src="images/port1.jpg" alt="">
-                <div class="social">
-                    <div class="icon">
-                        <a href="#"><i class="fab fa-facebook-square"></i></a>
-                    </div>
-                    <div class="icon">
-                        <a href="#">  <i class="fab fa-linkedin"></i></a>
-                    </div>
-                    <div class="icon">
-                        <a href="#"> <i class="fab fa-instagram"></i></a>
-                    </div>
-                 </div>
-            </div>
-            <div class="content">
-                <p>One dollar and eighty-seven cents. That was all. And sixty cents of it was in pennies. Pennies saved one and two at a time by bulldozing the grocer and the vegetable man and the butcher until one’s cheeks burned with the silent imputation of parsimony that such close dealing implied. One dollar and eighty-seven cents. And the next day would be Christmas..</p>
-            </div>
-        </div>
-    </section>
-    
-    <section class="works" id="works">
-        <div class="header">
-            <h2>My Works</h2>
-        </div>
-        <div class="container">
-            <div class="card">
-                <div class="image">
-                    <img src="images/work1.jpg" alt="">
-                </div>
-                <div class="text">
-                    <div class="title">
-                        <h4>work 1</h4>
-                    </div>
-                    <div class="subtitle">
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea corporis officia neque nesciunt alias enim?</p>
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="image">
-                    <img src="images/work2.jpg" alt="">
-                </div>
-                <div class="text">
-                    <div class="title">
-                        <h4>work 2</h4>
-                    </div>
-                    <div class="subtitle">
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea corporis officia neque nesciunt alias enim?</p>
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="image">
-                    <img src="images/work3.jpg" alt="">
-                </div>
-                <div class="text">
-                    <div class="title">
-                        <h4>work 3</h4>
-                    </div>
-                    <div class="subtitle">
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea corporis officia neque nesciunt alias enim?</p>
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="image">
-                    <img src="images/work4.jpg" alt="">
-                </div>
-                <div class="text">
-                    <div class="title">
-                        <h4>work 4</h4>
-                    </div>
-                    <div class="subtitle">
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea corporis officia neque nesciunt alias enim?</p>
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="image">
-                    <img src="images/work5.jpg" alt="">
-                </div>
-                <div class="text">
-                    <div class="title">
-                        <h4>work 5</h4>
-                    </div>
-                    <div class="subtitle">
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea corporis officia neque nesciunt alias enim?</p>
-                    </div>
-                </div>
-            </div>
+           <div class="left">
+            <div class="text-1">Hello, I'm</div>
+            <div class="text-2">THIS GUY</div>
+            <div class="text-3">Welcome to my page</div>
+           </div> 
+           <div class="right">
+               <img src="images/home.png" alt="">
+           </div>
         </div>
     </section>
 
-    
-    <section class="contact" id="contact">
-        <div class="content">
-            <h2>Contact Me</h2>
+    <section class="about" id="about">
+        <div class="container">
+            <div class="header">
+                <h1>About Me</h1>
+            </div>
+            <div class="about-content">
+                <div class="left">
+                    <div class="image">
+                        <img src="images/home.png" alt="">
+                        <div class="content">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae officiis et sed unde maxime dolorem quod odio eos corporis, placeat dolor eligendi blanditiis voluptate architecto aut fuga vero sit odit exercitationem quae ullam. Quae, iste debitis vel rem ex molestias.</p>
+                            </div>
+                        <div class="social">
+                            <div class="icon">
+                                <a href="#"><i class="fab fa-facebook-square"></i></a>
+                            </div>
+                            <div class="icon">
+                                <a href="#">  <i class="fab fa-linkedin"></i></a>
+                            </div>
+                            <div class="icon">
+                                <a href="#"> <i class="fab fa-instagram"></i></a>
+                            </div>
+                            <div class="icon">
+                                <a href="#"> <i class="fab fa-github-square"></i></a>
+                            </div>
+                        </div>
+                </div>
+                </div>
+                <div class="right">
+                    <div class="skill-box">
+                
+                        <h2>SKILL 1</h2>
+                        <div class="skill-content">
+                        <div class="bar" style="width: 90%;">
+                            <span>90%</span>
+                        </div>
+                        </div>  
+                        <h2>SKILL 2</h2>
+                        <div class="skill-content">
+                        <div class="bar" style="width: 80%;">
+                            <span>80%</span>
+                        </div></div>
+                        
+                        <h2>SKILL 3</h2>
+                        <div class="skill-content">
+                        <div class="bar" style="width: 90%;">
+                            <span>90%</span>
+                        </div></div>
+                        
+                        <h2>SKILL 4</h2>
+                        <div class="skill-content">
+                        <div class="bar" style="width: 70%;">
+                            <span>70%</span>
+                        </div></div>
+                       
+                        <h2>SKILL 5</h2>
+                        <div class="skill-content">
+                        <div class="bar" style="width: 80%;">
+                            <span>80%</span>
+                        </div></div>
+                    </div>
+                </div>
+            </div>
             
         </div>
+    </section>
+
+    <section class="experience" id="experience">
         <div class="container">
-            <div class="contactInfo">
-                <div class="box">
-                    <div class="icon"><i class="fas fa-map-marker-alt"></i></div>
-                    <div class="text">
-                        <h3>Address</h3>
-                        <p>345  abcd streets,<br>Batticaloa,<br>SriLanka </p>
-                    </div>
-                </div>
-                <div class="box">
-                    <div class="icon"><i class="fas fa-envelope"></i></div>
-                    <div class="text">
-                        <h3>E-Mail</h3>
-                        <p>abcd@gmail.com </p>
-                    </div>
-                </div>
-                <div class="box">
-                    <div class="icon"><i class="fas fa-phone-square-alt"></i></div>
-                    <div class="text">
-                        <h3>Phone</h3>
-                        <p>123456789 </p>
-                    </div>
+            <div class="header">
+                <h1>My Work Experience</h1>
+            </div>
+            <div class="excontainer">
+                <div class="timeline">
+                    <ul>
+                        <li>
+                            <div class="excontent">
+                                <div class="ex-logo">
+                                    <img src="images/ex1.png" alt="">
+                                </div>
+                                <div class="ex-text">
+                                    <h1>exp1</h1>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut illo laborum aliquid, est alias ullam!</p>
+                                    <h3>2015-2016</h3>
+                                </div>
+                                
+                            </div>
+                        </li>
+                        <li>
+                            <div class="excontent">
+                                <div class="ex-logo">
+                                    <img src="images/ex1.png" alt="">
+                                </div>
+                                <div class="ex-text">
+                                    <h1>exp2</h1>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut illo laborum aliquid, est alias ullam!</p>
+                                    <h3>2016-2018</h3>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="excontent">
+                                <div class="ex-logo">
+                                    <img src="images/ex1.png" alt="">
+                                </div>
+                                <div class="ex-text">
+                                    <h1>exp3</h1>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut illo laborum aliquid, est alias ullam!</p>
+                                    <h3>2018-2019</h3>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="excontent">
+                                <div class="ex-logo">
+                                    <img src="images/ex1.png" alt="">
+                                </div>
+                                <div class="ex-text">
+                                    <h1>exp4</h1>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut illo laborum aliquid, est alias ullam!</p>
+                                    <h3>2019-2021</h3>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
             </div>
-        
-            <div class="column-right">
-                <form>
-                    <h2>Send Message</h2>
-                    <div class="inputdata">
-                        <input type="text" name="" required>
-                        <span>Name</span>
-                    </div>
-                    <div class="inputdata">
-                        <input type="email" name="" required>
-                        <span>E-Mail</span>
-                    </div>
-                    <div class="inputdata">
-                    <textarea name="" id="" cols="30" rows="10" required></textarea>
-                        <span>Type here....</span>
-                    </div>
-                    <div class="inputdata">
-                        <input type="submit" value="Send">
-                    </div>
+            
+        </div>
+    </section>
 
-
-
-                </form>
+    <section class="projects" id="projects">
+        <div class="container">
+            <div class="header">
+                <h1>My Projects</h1>
+            </div>
+            <div class="pr-container">
+                <div class="pr-card">
+                    <div class="pr-icon">
+                        <img src="images/home.png" alt="">
+                    </div>
+                    <div class="pr-content">
+                        <h1>Project Title</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis perspiciatis expedita quia obcaecati dignissimos ullam atque voluptatibus nulla laboriosam minus natus excepturi quos eligendi, et, est cum neque? Fugiat molestias amet quo asperiores natus earum minus nihil et illum ipsum. Quod obcaecati aut debitis sapiente aliquid quae placeat esse perspiciatis voluptatibus quibusdam! Ratione commodi tenetur ad harum culpa, beatae consequuntur.</p>
+                    </div>
+                    <a class="more"></a>
+                </div>
+                <div class="pr-card">
+                    <div class="pr-icon">
+                        <img src="images/home.png" alt="">
+                    </div>
+                    <div class="pr-content">
+                        <h1>Project Title</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis perspiciatis expedita quia obcaecati dignissimos ullam atque voluptatibus nulla laboriosam minus natus excepturi quos eligendi, et, est cum neque? Fugiat molestias amet quo asperiores natus earum minus nihil et illum ipsum. Quod obcaecati aut debitis sapiente aliquid quae placeat esse perspiciatis voluptatibus quibusdam! Ratione commodi tenetur ad harum culpa, beatae consequuntur.</p>
+                    </div>
+                    <a class="more"></a>
+                </div>
+                <div class="pr-card">
+                    <div class="pr-icon">
+                        <img src="images/home.png" alt="">
+                    </div>
+                    <div class="pr-content">
+                        <h1>Project Title</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis perspiciatis expedita quia obcaecati dignissimos ullam atque voluptatibus nulla laboriosam minus natus excepturi quos eligendi, et, est cum neque? Fugiat molestias amet quo asperiores natus earum minus nihil et illum ipsum. Quod obcaecati aut debitis sapiente aliquid quae placeat esse perspiciatis voluptatibus quibusdam! Ratione commodi tenetur ad harum culpa, beatae consequuntur.</p>
+                    </div>
+                    <a class="more"></a>
+                </div>
             </div>
         </div>
     </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="header">
+                <h1>Contact Me</h1>
+            </div>
+            <div class="content">   
+            
+            
+                <div class="contactInfo">
+                    <div class="box">
+                        <div class="icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div class="text">
+                            <h3>Address</h3>
+                            <p>345  abcd streets,<br>Batticaloa,<br>SriLanka </p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon"><i class="fas fa-envelope"></i></div>
+                        <div class="text">
+                            <h3>E-Mail</h3>
+                            <p>abcd@gmail.com </p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon"><i class="fas fa-phone-square-alt"></i></div>
+                        <div class="text">
+                            <h3>Phone</h3>
+                            <p>123456789 </p>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="right">
+                    <form>
+                        <h2>Send Message</h2>
+                        <div class="inputdata">
+                            <input type="text" name="" required>
+                            <span>Name</span>
+                        </div>
+                        <div class="inputdata">
+                            <input type="email" name="" required>
+                            <span>E-Mail</span>
+                        </div>
+                        <div class="inputdata">
+                        <textarea name="" id="" cols="30" rows="10" required></textarea>
+                            <span>Type here....</span>
+                        </div>
+                        <div class="inputdata">
+                            <input type="submit" value="Send">
+                        </div>
+    
+    
+    
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </section>
+   
+   <section class="footer" id="footer">
     <footer>
-        <span>Created by </span><span><a href="#">AslamJM</a></span> | <span class="far fa-copyright"></span><span>2021 All rights reserved.</span>
+        <span>Created by </span><span><a href="#">EMD LABS</a></span> | <span class="far fa-copyright"></span><span>2021 All rights reserved.</span>
     </footer>
-    <script src="script.js"></script>
+   </section>
+    
+   <script src="app.js"></script> 
 </body>
 </html>
